@@ -1,0 +1,25 @@
+{
+  "name": "nodetask",
+  "version": "1.0.0",
+  "description": "Simple project with Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefersonae/NodeTask.git"
+  },
+  "author": "Jeferson de Souza Andrade",
+  "bugs": {
+    "url": "https://github.com/jefersonae/NodeTask/issues"
+  },
+  "homepage": "https://github.com/jefersonae/NodeTask#readme",
+  "dependencies": {
+    "babel": "^5.8.38",
+    "consign": "^0.1.6",
+    "express": "^4.21.2",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
