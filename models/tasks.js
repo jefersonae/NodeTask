@@ -1,6 +1,6 @@
-module.exports = app =>{
+export default _app =>{
     return {
-        findAll: (params, callback) =>{
+        findAll: (_params, callback) =>{
             return callback([
                 {title: "Reunião com a diretoria"},
                 {title: "Passear com o cachorro"},

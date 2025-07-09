@@ -3,7 +3,6 @@ import express from "express";
 
 const app = express();
 
-
 consign()
     .include("db.js")
     .then("models")
